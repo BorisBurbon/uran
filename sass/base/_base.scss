@@ -1,12 +1,28 @@
 @import "_variables.scss";
 @import "_mixins.scss";
 
+@import url(https://fonts.googleapis.com/css?family=Hind:400,300,500,600,700);
+
+
 html {
     
 }
 
 body {
-    background: #000;
+    font-family: 'Hind', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background: $bg-main;
+}
+.container {
+    width: 100%;
+    max-width: 1560px;
+    margin: 0 auto;
+}
+.wrap {
+    position: relative;
+    margin-top: 56px;
+    z-index: 2;
 }
 
 * {

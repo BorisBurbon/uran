@@ -8,29 +8,26 @@
 /*        LAYOUT       */
 
 // HEADER
-@import "layout/_header.scss"; 
+@import "layout/_header.scss";
 
 // CONTENT
 @import "layout/_content.scss";
 
-//FOOTER 
+//FOOTER
 @import "layout/_footer.scss";
-
 
 
 /***********************/
 /*       MODULES       */
 
+@import "modul/_slider.scss";
+
+@import "modul/_form.scss";
+
+@import "modul/_content.scss";
+
+@import "modul/_sidebar.scss";
 
 
 
-/***********************/
-/*        PAGES        */
 
-
-
-
-/***********************/
-/*        MEDIA        */
-
-@import "_media.scss";
