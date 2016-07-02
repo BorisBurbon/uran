@@ -12,7 +12,9 @@ body {
     font-family: 'Hind', sans-serif;
     font-size: 16px;
     font-weight: 400;
+    letter-spacing: 1px;
     background: $bg-main;
+    color: $text-dark;
 }
 .container {
     width: 100%;
@@ -27,4 +29,10 @@ body {
 
 * {
     outline: none !important;
-} 
+}
+
+a {
+    &:hover {
+        text-decoration: none;
+    }
+}
