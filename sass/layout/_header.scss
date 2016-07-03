@@ -161,3 +161,10 @@
     display: none;
   }
 }
+
+@media (max-height: 400px) and (orientation:landscape) {
+  .header .nav.navbar-menu {
+    height: 50vh;
+    overflow-y: auto;
+  }
+}
