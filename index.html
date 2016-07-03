@@ -38,7 +38,7 @@
                         <img src="img/icon/logo.png" alt="">
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav navbar-menu">
+                        <ul class="nav navbar-nav navbar-menu default">
                             <li class="active"><a href="#">Home</a></li>
                             <li><a href="#">Post Types</a></li>
                             <li><a href="#">Travel</a></li>
@@ -228,9 +228,9 @@
                                             Average : 5%
 
                                             <span class="star-rating">
-                                              <input type="radio" name="rating" value="1"><i></i>
-                                              <input type="radio" name="rating" value="2"><i></i>
-                                              <input type="radio" name="rating" value="3"><i></i>
+                                              <input type="radio" name="rating" value="1" checked><i></i>
+                                              <input type="radio" name="rating" value="2" checked><i></i>
+                                              <input type="radio" name="rating" value="3" checked><i></i>
                                               <input type="radio" name="rating" value="4"><i></i>
                                               <input type="radio" name="rating" value="5"><i></i>
                                             </span>
@@ -238,100 +238,358 @@
                                     </div>
                                     <div class="col-sm-4">
                                         <div class="social-btn">
-
+                                            <a href=""><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                                            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                            <a href=""><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4">
-                        <div class="sidebar">
-
-                            <div class="input-group sidebar__search">
-                                <input type="text" class="form-control" placeholder="Search">
-                              <span class="input-group-btn">
-                                <button class="btn btn-success btn-search" type="button">
-                                    <i class="fa fa-search" aria-hidden="true"></i>
-                                </button>
-                              </span>
-                            </div><!-- /input-group -->
-                            <div class="sidebar__photo">
-                                <img src="img/sidebar-1.jpg" alt="">
+                        <div class="post">
+                            <div class="row">
+                                <div class="col-xs-6 padding-mobil">
+                                    <button type="button" class="btn btn-success post-btn active">
+                                        <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+                                        Previous post
+                                    </button>
+                                </div>
+                                <div class="col-xs-6 padding-mobil">
+                                    <button type="button" class="btn btn-success post-btn">
+                                        Next post  <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                    </button>
+                                </div>
                             </div>
-                            <div class="sidebar__catagories">
-                                <h6 class="sidebar__title">Catagories</h6>
-                                <div class="inner-block">
-                                    <div class="text">
-                                        lifestyle
-                                    </div>
-                                    <div class="num">
-                                        98
-                                    </div>
-                                </div>
-                                <div class="inner-block">
-                                    <div class="text">
-                                        Audio
-                                    </div>
-                                    <div class="num">
-                                        37
-                                    </div>
-                                </div>
-                                <div class="inner-block">
-                                    <div class="text">
-                                        Gallery
-                                    </div>
-                                    <div class="num">
-                                        25
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="post__user">
+                                        <div class="img">
+
+                                        </div>
+                                        <div class="text">
+                                            <div class="title">
+                                                Michell Beverly
+                                                <a href="#" class="link-post">All post</a>
+                                            </div>
+                                            <div class="text-inner">
+                                                Patricia gives you the ability to let people actually
+                                                read have your content, instead of focusing
+                                                on all the other stuff that’s going on their screen.
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="inner-block">
-                                    <div class="text">
-                                        Standard
-                                    </div>
-                                    <div class="num">
-                                        15
-                                    </div>
-                                </div>
-                                <div class="inner-block">
-                                    <div class="text">
-                                        Status
-                                    </div>
-                                    <div class="num">
-                                        15
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 col-xs-6 post__input-block">
+                                    <div class="input-group sidebar__search">
+                                          <span class="input-group-btn">
+                                            <button class="btn btn-success btn-search active" type="button">
+                                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                                            </button>
+                                          </span>
+                                        <input type="text" class="form-control center" placeholder="Facebook 28">
                                     </div>
                                 </div>
-                                <div class="inner-block">
-                                    <div class="text">
-                                        Video
+                                <div class="col-lg-3 col-xs-6 post__input-block">
+                                    <div class="input-group sidebar__search">
+                                          <span class="input-group-btn">
+                                            <button class="btn btn-success btn-search" type="button">
+                                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                                            </button>
+                                          </span>
+                                        <input type="text" class="form-control center" placeholder="Twitter 40">
                                     </div>
-                                    <div class="num">
-                                        157
+                                </div>
+                                <div class="col-lg-3 col-xs-6 post__input-block">
+                                    <div class="input-group sidebar__search">
+                                          <span class="input-group-btn">
+                                            <button class="btn btn-success btn-search" type="button">
+                                                <i class="fa fa-tumblr" aria-hidden="true"></i>
+                                            </button>
+                                          </span>
+                                        <input type="text" class="form-control center" placeholder="Tumbler 11">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-xs-6 post__input-block">
+                                    <div class="input-group sidebar__search">
+                                          <span class="input-group-btn">
+                                            <button class="btn btn-success btn-search" type="button">
+                                                <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                                            </button>
+                                          </span>
+                                        <input type="text" class="form-control center" placeholder="pinterest 83">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                    <!--Sidebar block-->
+                    <div class="col-lg-3 col-md-4">
+                        <div class="sidebar">
+                            <div class="row">
+                                <div class="col-md-12 col-xs-6 sidebar-block">
+                                    <div class="input-group sidebar__search">
+                                        <input type="text" class="form-control" placeholder="Search">
+                                        <span class="input-group-btn">
+                                           <button class="btn btn-success btn-search" type="button">
+                                              <i class="fa fa-search" aria-hidden="true"></i>
+                                           </button>
+                                         </span>
+                                     </div><!-- /input-group -->
+                                </div>
+                                <div class="col-md-12 col-xs-6 sidebar-block">
+                                    <div class="sidebar__photo">
+                                        <img src="img/sidebar-1.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-xs-6 sidebar-block">
+                                    <div class="sidebar__catagories">
+                                        <h6 class="sidebar__title">Catagories</h6>
+                                        <div class="inner-block">
+                                            <div class="text">
+                                                lifestyle
+                                            </div>
+                                            <div class="num">
+                                                98
+                                            </div>
+                                        </div>
+                                        <div class="inner-block">
+                                            <div class="text">
+                                                Audio
+                                            </div>
+                                            <div class="num">
+                                                37
+                                            </div>
+                                        </div>
+                                        <div class="inner-block">
+                                            <div class="text">
+                                                Gallery
+                                            </div>
+                                            <div class="num">
+                                                25
+                                            </div>
+                                        </div>
+                                        <div class="inner-block">
+                                            <div class="text">
+                                                Standard
+                                            </div>
+                                            <div class="num">
+                                                15
+                                            </div>
+                                        </div>
+                                        <div class="inner-block">
+                                            <div class="text">
+                                                Status
+                                            </div>
+                                            <div class="num">
+                                                15
+                                            </div>
+                                        </div>
+                                        <div class="inner-block">
+                                            <div class="text">
+                                                Video
+                                            </div>
+                                            <div class="num">
+                                                157
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-xs-6 sidebar-block">
+                                    <div class="sidebar__advertising">
+                                        <img src="img/advertising.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-xs-6 sidebar-block">
+                                    <div class="sidebar__latest-post">
+                                        <h6 class="sidebar__title">Latest Post</h6>
+                                        <!--Repeat block post-->
+                                        <div class="later-post">
+                                            <div class="img">
 
+                                            </div>
+                                            <div class="text">
+                                                <div class="title">
+                                                    jurney towards a lifestyle
+                                                    <div class="like">
+                                                        <span>Jan. 18 2015</span>
+                                                        <span>Like <span class="limitation">26</span></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--/Repeat block post-->
+                                        <!--Repeat block post-->
+                                        <div class="later-post">
+                                            <div class="img">
+
+                                            </div>
+                                            <div class="text">
+                                                <div class="title">
+                                                    jurney towards a lifestyle
+                                                    <div class="like">
+                                                        <span>Jan. 18 2015</span>
+                                                        <span>Like <span class="limitation">26</span></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--/Repeat block post-->
+                                        <!--Repeat block post-->
+                                        <div class="later-post">
+                                            <div class="img">
+
+                                            </div>
+                                            <div class="text">
+                                                <div class="title">
+                                                    jurney towards a lifestyle
+                                                    <div class="like">
+                                                        <span>Jan. 18 2015</span>
+                                                        <span>Like <span class="limitation">26</span></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--/Repeat block post-->
+                                        <!--Repeat block post-->
+                                        <div class="later-post">
+                                            <div class="img">
+
+                                            </div>
+                                            <div class="text">
+                                                <div class="title">
+                                                    jurney towards a lifestyle
+                                                    <div class="like">
+                                                        <span>Jan. 18 2015</span>
+                                                        <span>Like <span class="limitation">26</span></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--/Repeat block post-->
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
             </section>
         </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="footer__title">
+                            About Blog
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, conser adipisicing
+                            esse cillum dolore nulla pariatur.
+                        </p>
+                        <div class="phone">
+                            <img src="img/footer-img.png" alt="" class="img-responsive">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="footer__title">
+                            latest tweets
+                        </div>
+                        <div class="tweets-block">
+                            <div class="icon">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </div>
+                            <p> @Twitter@magicalrebekah</p>
+                            <p>Developer Advocate @heyval isaiyou knows the very well is about</p>
+                        </div>
+                        <div class="tweets-block">
+                            <div class="icon">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </div>
+                            <p> @Twitter@magicalrebekah</p>
+                            <p>Developer Advocate @heyval isaiyou knows the very well is about</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="footer__title">
+                            Follow me instagram
+                        </div>
+                        <div class="instagram-block">
+                            <div class="inner-block">
+
+                            </div>
+                            <div class="inner-block">
+
+                            </div>
+                            <div class="inner-block">
+
+                            </div>
+                            <div class="inner-block">
+
+                            </div>
+                            <div class="inner-block">
+
+                            </div>
+                            <div class="inner-block">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="footer__title">
+                            latest comment
+                        </div>
+                        <div class="user-comment">
+                            <p>From Alex :</p>
+                            <p>
+                                Developer Advocate @heyval isaiyou know the very well is talkin
+                            </p>
+                        </div>
+                        <div class="user-comment">
+                            <p>From Jhon Doe : </p>
+                            <p>
+                                Developer Advocate @heyval isaiyou know the very well is talkin
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <i class="fa fa-at" aria-hidden="true"></i> 2015 copyright .all right reserved by awesome theme
+                <a href="#" class="copyright__link">terms policy</a>
+                <a href="#" class="copyright__link">disclaimer</a>
+            </div>
+        </footer>
 
 
         <!-- COMPONENTS SCRIPTS -->
         <script type="text/javascript" src="vendor/jquery/dist/jquery.min.js"></script>
         <script type="text/javascript" src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
-
-        <script>
-            $(".navbar-toggle.desktop").click(function(){
-                $(".navbar-menu").toggleClass("opacity");
-            });
-        </script>
+        <!--stars-->
         <script>
             $(function(){
                 $('input[name="rating"][value="0"]').prop('checked',true);
             })
         </script>
-
+        <!--menu-->
+        <script>
+            $(document).ready(function(){
+                var $menu = $(".navbar-menu");
+                $(window).scroll(function(){
+                    if ( $(this).scrollTop() > 100 && $menu.hasClass("default") ){
+                        $menu.removeClass("default").addClass("bg-black");
+                    } else if($(this).scrollTop() <= 100 && $menu.hasClass("bg-black")) {
+                        $menu.removeClass("bg-black").addClass("default");
+                    }
+                });
+            });
+        </script>
+        <script>
+            $(".navbar-toggle.desktop").click(function(){
+                $(".navbar-menu").toggleClass("opacity");
+            });
+        </script>
     </body>
 </html>

@@ -2,7 +2,6 @@
   font-size: 0;
   white-space: nowrap;
   display: inline-block;
-  vertical-align: middle;
   width: 60px;
   height: 12px;
   overflow: hidden;
@@ -34,6 +33,7 @@
     EwLDAgMTMuMDksNi41ODMgMjAsNy42MzkgMTUsMTIuNzY0IDE2LjE4LDIwIDEwLDE2LjU4My
     AzLjgyLDIwIDUsMTIuNzY0IDAsNy42MzkgNi45MSw2LjU4MyAiLz48L3N2Zz4=');
     background-size: contain;
+
   }
   input{
     -moz-appearance:none;
@@ -49,6 +49,9 @@
     &:hover + i,
     &:checked + i{
       opacity:1;
+    }
+    &:hover {
+      cursor: pointer;
     }
   }
   i ~ i{

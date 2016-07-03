@@ -13,6 +13,7 @@
   &__nav {
     background: $bg-dark;
     color: $white;
+    border-radius: 0;
 
     .container {
       position: relative;
@@ -60,6 +61,12 @@
         &.opacity {
           opacity: 1;
         }
+        &.bg-black {
+          background: rgba(0,0,0,0.75);
+        }
+        &.default {
+          background: transparent;
+        }
 
         li {
           a {
@@ -96,7 +103,7 @@
 }
 .bg-head {
   height: 300px;
-  position: fixed;
+  position: absolute;
   top: 52px;
   left: 0;
   right: 0;

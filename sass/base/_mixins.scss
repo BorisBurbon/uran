@@ -1,7 +1,6 @@
 // MIXINS
 
-@mixin links ($link, $visit, $hover, $active) {
-  a {
+@mixin links($link, $visit, $hover, $active) {
     color: $link;
     &:visited {
       color: $visit;
@@ -12,5 +11,4 @@
     &:active {
       color: $active;
     }
-  }
 }

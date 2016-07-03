@@ -102,9 +102,8 @@
       text-transform: uppercase;
 
       a {
-        color: $text-dark;
         transition: all 0.2s ease-out;
-        @include links($text-grey, $text-grey, $text-dark, $text-dark);
+        @include links (#464646, #464646, $text-grey, $text-grey);
       }
       .limitation {
         display: inline-block;
@@ -128,7 +127,17 @@
         padding: 10px 0;
         text-align: center;
       }
-
+      .social-btn {
+        text-align: right;
+        a {
+          display: inline-block;
+          vertical-align: middle;
+          padding: 10px 15px;
+          transition: all 0.2s ease-out;
+          font-size: 14px;
+          @include links (#464646, #464646, $text-grey, $text-grey);
+        }
+      }
     }
   }
 }
@@ -153,6 +162,12 @@
       }
       .social-feeds {
         margin: 25px 0;
+        .comment-block {
+          text-align: center;
+        }
+        .social-btn {
+          text-align:  center;
+        }
       }
     }
   }
